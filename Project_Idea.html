@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Idea</title>
+    <link rel="icon" type="image/x-icon" href="assets/Beer.ico">
+</head>   
+<p style="text-align:center;"><img src="assets/POH.png" alt="Pursuit of Hoppiness"></p>
+
+<div style="font-family: 'Calibri'; text-align:center">
+    <a href="index.html">Personal Information</a>
+    <a>|</a>
+    <a href="Intrests _in_IT.html">Intrest in IT</a>
+    <a>|</a>
+    <a href="Ideal_Job.html">Ideal Job</a>
+    <a>|</a>
+    <a href="Profile.html">Profile</a>
+    <a>|</a>
+    <a href="Project_Idea.html">Project Idea</a>
+    <a>|</a>
+    <a href="References.html">References</a>
+  </div>
+
+  <body style="font-family: 'Calibri'; background-color:hsl(44, 94%, 94%)">
+   
+    <h1 style="font-family: 'Brush Script MT'; text-align:center">Overview</h1>
+<p>Pursuit of Hoppiness is a community sourced bar rating and review app that can be used to filter by specific categories to allow beer enthusiasts to broaden their beer horizons, 
+  beer bargain hunters to find and deal, and all beer lovers to come together in one place. It is the “Pursuit of Hoppiness”.</p>
+<p>The app focus on reviews of venues and encourages exploration of a user's local area or can serve as a guide when you arrive somewhere new providing 5 different beer focused 
+  categories to filter by instead of a single unrelated 5-star review.</p>
+   
+  <h1 style="font-family: 'Brush Script MT'; text-align:center">Motivation</h1>
+<p>Beer is the most consumed alcoholic beverage in the world and third most popular beverage after water and tea (Salanță et al., 2020). Despite an overall drop in Australian beer 
+  consumption the craft beer industry has grown 4.7% annually between 2016 and 2021 with a 6.2% expected growth to occur in 2021 (IBIS World, 2021). Despite this when I explore new 
+  bars I find the same 4 lager taps installed. “Pursuit of Hoppiness” solves this by quickly sorting all nearby venues based on Tap Uniqueness, Total Taps, Pint Price, and Atmosphere 
+  based on fellow beer enthusiast's input. The app also allows reviews and social networking with friends.</p>
+
+  <h1 style="font-family: 'Brush Script MT'; text-align:center">Description</h1>
+
+  <h2 style="font-family: 'Brush Script MT'">UI</h2>
+<p>The app will feature a similar UI to Google maps, opening on a map centered on the user's location. There will be search and filter features located at the top of the page 
+  and additional page tabs located at the bottom, linking to Explore, User Profile and Friends.</p>
+<p>On the map local bars will have a pin added with 5 numbers indicating the 5 rating categories giving a quick summary. Users can click on any of the venues on the map to be 
+  provided with more information about the venue including street address, opening hours, links to the venues socials, user reviews and the ability to Rate.</p>
+
+  <h2 style="font-family: 'Brush Script MT'">Filtering</h2>
+<p>Users will have the ability to filter all bars by either 5 of the categories, Tap Uniqueness, Total Taps, Pint Price, Atmosphere, Overall Rating, and distance with the sorted 
+  results displaying on a list. Results on the list will filter with the best match at the top and will show the title of the venue, distance, and each categories score. Clicking 
+  on a result will provide more detail on the bar including street address, opening hours, links to the venues socials, user reviews and the ability to Rate.</p>
+
+  <h2 style="font-family: 'Brush Script MT'">Ratings</h2>
+<p>From the maps page users can select a bar and click Rate to input their ratings and a review. The ratings interface will present as a slider with words describing what either 
+  end represents. The data recorded from the slider will be 0-10 which will then be averaged across all ratings and used when filtering for other users.</p>
+<p>The rating input uses words instead of numbers to keep the app light an approachable after a few. The language is also intentional at polar ends of the options to inspire debate 
+  amongst a table. Descriptions of the categories and the words used on either end of the scan are listed below.</p>
+  <p style="text-align:center;"><img src="assets/Scale.png" alt="Tap Uniqueness"></p>
+
+  <p style= "text-align:center">Tap Uniqueness- Refers to variety of the beers available on tap.<br>
+    Seen in 1000 times – Totally out there</p>
+
+  <p style= "text-align:center">Total Taps- Refers to the total number of taps in a venue<br>
+    0 – 20+</p>
+
+  <p style= "text-align:center">Pint Price- Refers to the price of the pint<br>
+    Bargain – Rip Off</p>
+
+  <p style= "text-align:center">Atmosphere- Refers to the “Vibe” of it<br>
+    Family Picnic – Don't bring your mum</p>
+
+  <p style= "text-align:center">Overall Rating- Is the rating that the user giver the venue<br>
+    Never again – My new regular</p>
+
+  <h2 style="font-family: 'Brush Script MT'">Reviews</h2>
+<p>As well as Ratings, users will be able to leave reviews. These will be visible if a user clicks on the bar.</p>
+
+<h2 style="font-family: 'Brush Script MT'">User Profiles</h2>
+<p>As the service relies on user input for accurate and relevant results, we need to encourage users to contribute ratings and reviews. To do this we will gamify the process awarding 
+  Badges and status levels to users based on their input. This will function similar to Google Local guides (Overview - Local Guides Help, 2021). The badges will be publicly visible 
+  next to user reviews on profile images.</p>
+<p style="text-align:center;"><img src="assets/Profile.png" alt="Profile Picture"></p>
+<p>The Profiles will also have networking features with the ability to add other users as friends and see their ratings and reviews in an activity feed. This will encourage organic 
+  growth in existing social networking groups. 
+  </body>
+
+<h1 style="font-family: 'Brush Script MT'; text-align:center">Tools, Technologies and Skills Required</h1>
+<p>The app will be software and UI heavy with minimal need for any hardware skills.</p>
+<p>I do not have experience with app creation, but assume that achieving the primary function of listing bars based on location and further filtering the results based on the 5 
+  categories should be reasonable to achieve. I had a quick look at MIT App maker, Power BI and Appsheet and think a working sample could be made on either of these platforms, with 
+  low to no code.</p>  
+<p>Similarly creating a form for users to input their ratings and comments should be straight forward with the information being collected and stored on a cloud-based database 
+  service such as AWS, Azure or GCP (Yehuda, 2020). We can also use open-source Database solution, but this can introduce compatibility issues (Top 12 Open Source Database Software 
+  for Your Next Project, 2021) depending how we build the app. These also require local hosting.</p>
+<p>As I plan to have user profiles to identify comments, allow badges and allow social networking we need a secure way of creating user accounts and storing their credentials. 
+  This is another area I do not have experience in and would lean towards another third-party provider like Ping Identity, which provide a “Frictionless Identity” 
+  (Ping Identity, 2021) platform. There are also open-source Identity solutions such as OpenIAM and Apache Syncope (Canner, 2019) which can be investigated if the project is taken 
+  further.</p>
+<p>The last skill sets needed are fir developing the User Interface and User Experience.</p>
+
+
+<h1 style="font-family: 'Brush Script MT'; text-align:center">Outcome</h1>
+<p>For the app to function properly it requires significant user input. I see this being the biggest initial hurdle to overcome. If it does have significant user buy in than 
+  I can see the app becoming a regular part of an evening out.</p>
+<p>It will help beer fans quickly identify what is near them and make an educated decision about where to go next based on our 5 categories rather than 1 first star rating.</p>  
+<p>It will also help further the Craft Beer culture and support local businesses with users choosing to explore their local area and embrace Totally out their Taps rather than 
+  always heading back to the one watering hole.</p>
+<p>Come join the..</p>
+<p style="text-align:center;"><img src="assets/POH.png" alt="Pursuit of Hoppiness"></p>
+
+  <footer style="font-family: 'Calibri'; text-align:center">
+    <p>Name: Rory Henderson</p>
+    <p>Student Number: s3933584</p>
+    <p><a href="mailto:s3933584@student.rmit.edu.au">s3933584@student.rmit.edu.au</a></p>
+  </footer>
+  </html>
